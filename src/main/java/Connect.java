@@ -7,7 +7,7 @@ public class Connect {
 
     public static Connection getConnection() throws SQLException {
         Connection connection = DriverManager.getConnection(URL, "postgres", "password");
-        //connection.setAutoCommit(false);
+        connection.setAutoCommit(false);
         return connection;
-    };
+    }
 }
