@@ -3,6 +3,11 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+/**
+ * Класс для работы с БД
+ * Создание таблицы, удаление таблицы, вставка записи в БД, удаление записи из БД, выборка данных из БД
+ */
+
 public class TableManipulation {
     Connection connection;
 

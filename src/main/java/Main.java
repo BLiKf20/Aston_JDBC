@@ -18,7 +18,7 @@ public class Main {
         t.deleteRecordById(1);
         t.selectAllRecord();
 
-        //t.dropTable();
+        //t.dropTable(); //удаляем таблицу
 
         con.close();
     }

@@ -1,5 +1,9 @@
 import java.sql.Date;
 
+/**
+ * Класс для отображения в базу данных
+ */
+
 public class Railway_Station {
     private static int id = 0;
 
